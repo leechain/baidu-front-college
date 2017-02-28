@@ -1,0 +1,188 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+#all{
+	width:100%;
+	background:#CCCCCC;
+}
+
+header,footer{
+	width:100%;
+	background-color:#0D0D0D;
+	height:50px;
+}
+
+footer{
+	text-align:center;
+	padding-top:10px;
+	color:white;
+}
+
+header img{
+	float:left;
+	margin:10px 30px;
+}
+
+header ul li{
+	float:right;
+	width:80px;
+	margin-right:20px;
+}
+
+header ul li a{
+	line-height:50px;
+	text-decoration:none;
+	color:white;
+}
+
+header ul li a:visited{
+	color:#CCCCCC;
+}
+
+header ul li a:hover{
+	color:#CD0000;
+}
+
+#content{
+	margin:0 auto;
+    margin:15px 15px;
+}
+
+#div1,#div2,#div3,#div4,#div5{
+	background-color:white;
+	padding:20px 10px;
+	box-shadow:2px 2px 1px 1px #8C8C8C;
+}
+
+#div1,#div2,#div3,#div4{
+	margin-bottom:15px;
+}
+
+h2,.author{
+	color:grey;
+}
+
+p{
+	line-height:25px;
+	text-indent:2em;
+}
+
+#div2 ul{
+	list-style-type:none;
+	text-indent:2em;
+	line-height:25px;
+}
+
+blockquote{
+	border:1px solid grey;
+	width:330px;
+	height:230px;
+	text-align:center;
+	padding-top:10px;
+	margin-bottom:20px;
+	margin-left:50px;
+	line-height:35px;
+}
+
+#div4 ol{
+	margin-left:70px;
+	line-height:25px;
+}
+
+table,tr,th,td{
+	border:1px solid grey;
+	border-collapse:collapse;
+}
+
+table{
+	width:100%
+}
+
+th{
+	text-align:left;
+	background-color:black;
+	color:white;
+	padding:2px;
+}
+
+td{
+	vertical-align:center;
+	padding:2px;
+}
+
+td.result{
+	background-color:grey;
+	font-weight:bold;
+}
+
+h3{
+
+}
+
+.line{
+	
+	width:2px;
+	background:grey;
+	height:20px;
+	float:left;
+	margin-right:15px;
+}
+
+.email{
+	color:grey;
+}
+
+#div5 table{
+	width:50%;
+	margin:0 auto;
+	line-height:30px;
+}
+
+#div5 table,#div5 td,#div5 tr{
+	border:0px;
+	height:10px;
+}
+
+#div5 td{
+	vertical-align:center;
+}
+
+.right{
+	padding-right:20px;
+	text-align:right;
+}
+.top{
+	vertical-align:top;
+	text-align:right;
+	padding-right:20px;
+	padding-top:0px;
+}
+
+button{
+	width:99.8%;
+	height:25px;
+	background-color:blue;
+	color:white;
+	border-radius:5px;
+	border:1px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
