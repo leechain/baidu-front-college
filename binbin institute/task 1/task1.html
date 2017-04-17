@@ -30,7 +30,12 @@
 			var oText=document.getElementById("aqi-display");
 			
 			//将显示区域的内容替换成输入文本框的内容
-			oText.innerHTML=oShow.value;
+			if(oShow.value==""){
+				oText.innerHTML="尚无录入";
+				
+			}else{
+				oText.innerHTML=oShow.value;
+			}
 			
 		}
 
